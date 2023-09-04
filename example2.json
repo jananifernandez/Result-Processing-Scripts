@@ -1,0 +1,73 @@
+{
+	"identifier" : "Example",
+	"configFilename" : "MUSHRA.json",
+	"configSHA256" : "7049ca902184ac737027af8a548858b9639a4d70c16f2659c9fb3944d71673e9",
+	"task" : 	{
+		"plugin" : "mc_itur_mushra",
+		"parameters" : 		{
+			"repetitions" : 2,
+			"objective" : "Compare the sound samples to the reference",
+			"useReference" : "",
+			"useHighAnchor" : 0,
+			"useLowAnchor" : 0
+		}
+
+	}
+,
+	"experimentData" : 	{
+		"sessions" : [ 			{
+				"groups" : [ 					{
+						"reference" : 0,
+						"stimuli" : [ 							{
+								"filename" : "Reference.wav",
+								"responses" : [ 100.0, 100.0 ]
+							}
+, 							{
+								"filename" : "Ex_1.wav",
+								"responses" : [ 83.0, 65.0 ]
+							}
+, 							{
+								"filename" : "Ex_2.wav",
+								"responses" : [ 94.0, 83.0 ]
+							}
+, 							
+ ]
+					}
+, 					{
+						"reference" : 0,
+						"stimuli" : [ 							{
+								"filename" : "Referencewav",
+								"responses" : [ 100.0, 100.0 ]
+							}
+, 							{
+								"filename" : "Ex_1wav",
+								"responses" : [ 55.0, 81.0 ]
+							}
+, 							{
+								"filename" : "Ex_2.wav",
+								"responses" : [ 71.0, 66.0 ]
+							}
+ ]
+					}
+
+			}
+ ]
+	}
+,
+	"orders" : 	{
+		"sessionOrder" : 0,
+		"sessions" : [ 			{
+				"groupOrder" : [ 1, 0]
+			}
+ ]
+	}
+,
+	"progress" : 	{
+		"sessionProgress" : 1,
+		"sessions" : [ 			{
+				"groupProgress" : 0
+			}
+ ]
+	}
+
+}
